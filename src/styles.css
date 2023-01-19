@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-image: linear-gradient( 135deg, #81FFEF 10%, #F067B4 80%);
+}
+
+@media (max-width: 500px) { 
+    body {
+        background-image: linear-gradient( 135deg, #81FFEF 30%, #F067B4 10%);
+    }
+}

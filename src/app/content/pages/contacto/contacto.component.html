@@ -1,0 +1,27 @@
+<app-header titulo="Contáctame." subTitulo="Desarrollador WEB"></app-header>
+
+<div class="container text-center p-3" style="margin-top: 50px;">
+    <div class="row">
+        <div class="col">
+            <img src="../../../../assets/foto.png" height="200px" alt="">
+        </div>
+    </div>
+    <!-- <div class="mt-5">
+        <cite>"Primero resuelve el problema. Entonces, escribe el código"</cite>
+        <br>
+        <strong><cite>- John Johnson</cite></strong>
+    </div> -->
+    <div class="row" style="margin-top: 20px;">
+        <h1 class="display-5 text-redes">Redes sociales</h1>
+        <p>Encuentramé en los siguientes medios</p>
+    </div>
+    <div class="row content d-flex justify-content-center align-items-center">
+        <div class="col-sm-6 col-md-3" *ngFor="let red of redes">
+            <div class="icono">
+                <a id="btn" (click)="modal( red.enlace, red.nombre, red.icono )" ><i [class]="red.icono"></i></a>
+                <br>
+                <span> {{ red.nombre }} </span>
+            </div>
+        </div>
+    </div>
+</div>

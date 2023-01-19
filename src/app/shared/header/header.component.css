@@ -1,0 +1,22 @@
+.container-fluid {
+    margin-top: 70px;
+    min-height: 20vh;
+    background-color:rgba(255, 255, 255, 0.76);
+    box-shadow: 0px 0px 30px 10px rgba(255, 255, 255, 0.37);
+}
+
+@media  (max-width: 760px) {
+  img {
+    display: flex;
+    flex: 1;
+    margin: auto;
+  }
+}
+
+h1 {
+  font-family: 'JetBrains';
+}
+
+h4 {
+  color: black;
+}

@@ -1,0 +1,60 @@
+<app-header titulo="Hola, soy Ceysor." subTitulo="Desarrollador WEB"></app-header>
+
+<div class="container text-center p-3" style="margin-top: 50px;">
+    <div class="row d-flex justify-content-center align-items-center text-center">
+
+        <div>
+            <iframe src="https://giphy.com/embed/VbK2YCQFWdg5nvH5wa" width="220" frameBorder="0"></iframe>
+            <p></p>
+            <h1 class="display-5">Proyectos realizados</h1>
+            <p>Proyectos que he realizado a lo largo de mi carrera.</p>
+        </div>
+
+        <div class="col-md-5 tarjeta mt-4 mx-2 text-white" *ngFor="let proyecto of proyectos">
+            <div class="fondo" [ngStyle]="{'backgroundColor' : proyecto.color,  'opacity': '0.9' }">
+                <h4 class="p-3"> {{ proyecto.nombre }} </h4>
+                <div class="row m-2">
+                    <h6 style="text-align: center;"> {{ proyecto.tecnologias }} </h6>
+                    <div class="col">
+                        <a *ngIf="proyecto.deploy" [href]="proyecto.deploy" target="_blank"
+                            class="text-white mx-3 fs-2"><i class="bi bi-link-45deg"></i></a>
+                        <a [href]="proyecto.github" target="_blank" class="text-white mx-3 fs-2"><i
+                                class="bi bi-github"></i></a>
+                        <a *ngIf="proyecto.youtube" [href]="proyecto.youtube" target="_blank"
+                            class="text-white mx-3 fs-2"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row text-center d-flex justify-content-center parent" style="margin-top: 100px;">
+            <div class="row">
+                <h1 class="display-5">Habilidades</h1>
+                <p>Desde el backend hasta el frontend.</p>
+            </div>
+            <div class="row content d-flex justify-content-center">
+                <div *ngFor="let habilidad of habilidades; let i = index" class="col-md-4 mt-5 d-flex justify-content-center">
+                    <div class="circle d-flex justify-content-center align-items-center" (click)="hover( habilidad.nombre )">
+                        <img [src]="habilidad.imagen" style=" height: 100px;" alt="">
+                    </div>
+                    <div class="habilidades" [id]="habilidad.nombre">
+                        <div class="mt-3 items" [id]="i">
+                            <h3> {{ habilidad.nombre }} </h3>
+                            <p id="parrafo" *ngFor="let item of habilidad.habilidades"> {{ item }} </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center" style="margin-top: 100px;">
+            <div class="row">
+                <h1 class="display-5">Contácto</h1>
+                <p>Haz click en el boton de abajo.</p>
+            </div>
+            <div class="col">
+                <button class="myButton" [routerLink]="['/app/portafolio/contacto']">Click</button>
+            </div>
+            
+        </div>
+    </div>

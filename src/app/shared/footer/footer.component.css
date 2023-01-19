@@ -1,0 +1,39 @@
+
+
+.wall-paper {
+    width: 1500px;
+    height: 1000px;
+    right: 0;
+    bottom: 0;
+    background-image: url('../../../assets/wall-paper.png');
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    z-index: -1;
+}
+
+@media  (max-width:1000px) {
+    .wall-paper {
+        width: 1000px;
+        right: 0;
+        bottom: 0;
+        background-image: url('../../../assets/wall-paper.png');
+        background-position: center;
+        background-size: cover;
+        position: fixed;
+        z-index: -1;
+    }
+}
+
+@media  (max-width:500px) {
+    .wall-paper {
+        width: 600px;
+        right: 0;
+        bottom: 0;
+        background-image: url('../../../assets/wall-paper.png');
+        background-position: center;
+        background-size: cover;
+        position: fixed;
+        z-index: -1;
+    }
+}

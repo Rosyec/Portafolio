@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'JetBrains';
+    src: url(../../../../assets/JetBrainsMono-SemiBold.ttf) format("truetype");
+}
+
+h3,
+h2,
+h1 {
+    font-family: 'JetBrains';
+    color: #d63384;
+    text-shadow: 2px 2px 0px white;
+}
+
+p,
+a,
+h4 {
+    font-family: 'JetBrains';
+}
+
+p {
+    font-size: 1.3em;
+}
+
+a {
+    font-size: 5em;
+    cursor: pointer;
+}
+
+#btn{
+    color: #d63384;
+}
+
+img {
+    border-radius: 999px 999px 999px 999px;
+    background-color: #FFDEE9;
+    box-shadow: 20px 20px 50px 0px rgba(0,0,0,0.3);
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+}
+
+.content {
+    padding: 10px;
+    overflow: visible;
+    height: 200px;
+    border-radius: 999px 999px 999px 999px;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    box-shadow: 20px 20px 50px 0px rgba(0,0,0,0.3);
+}
+
+
+
+@media (min-width:770px) {
+    .icono:hover {
+        padding-bottom: 100px;
+    }
+}
+
+.icono:not(hover){
+    transition: ease;
+    padding-bottom: 0px;
+    transition-duration: 500ms;
+}
+
+@media (max-width:770px) {
+    .content {
+        height: 80vh;
+        padding: 10px;
+        border-radius: 5px;
+    }
+}
+
+span {
+    visibility: hidden;
+}
+
+@media (max-width:770px) {
+    span {
+        visibility: visible;
+    }
+}
