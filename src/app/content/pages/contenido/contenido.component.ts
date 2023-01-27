@@ -40,7 +40,7 @@ export class ContenidoComponent implements OnInit {
         nombre: 'App - Control Usuarios',
         github: 'https://github.com/Rosyec/SpringBoot-ControlUsuarios',
         tecnologias: 'SPRINGBOOT - HTML/CSS - JAVASCRIPT - MYSQL',
-        youtube: 'https://www.youtube.com/watch?v=yFKwpDV8QrA&ab_channel=RosyecParrado'
+        deploy: 'https://control-usuarios.herokuapp.com/app/listar'
       },
       {
         color: '#B1AFFF',
@@ -61,21 +61,21 @@ export class ContenidoComponent implements OnInit {
         color: '#F675A8',
         nombre: 'App - Mapas',
         github: 'https://github.com/Rosyec/Angular-AppMapas',
-        tecnologias: 'ANGULAR - TYPECRIPT - API RESTCOUNTRIES',
+        tecnologias: 'ANGULAR - TYPECRIPT - MAPBOX',
         deploy: 'https://glistening-piroshki-d265d2.netlify.app/'
       },
       {
         color: '#C4DFAA',
         nombre: 'App - Héroes',
         github: 'https://github.com/Rosyec/Angular-AppHeroes',
-        tecnologias: 'ANGULAR - TYPECRIPT - API RESTCOUNTRIES',
+        tecnologias: 'ANGULAR - TYPECRIPT - SPRINGBOOT',
         youtube: 'https://www.youtube.com/watch?v=7U4fQ5GOp_k&ab_channel=RosyecParrado'
       },
       {
         color: '#CA965C',
         nombre: 'App - Auth',
         github: 'https://github.com/Rosyec/Angular-AppAuth',
-        tecnologias: 'ANGULAR - TYPESCRIPT - API RESTCOUNTRIES',
+        tecnologias: 'MONGO - EXPRESS - ANGULAR - NODE',
         deploy: 'https://angular-node.herokuapp.com/auth/login'
       },
       {
