@@ -83,8 +83,23 @@ export class ContenidoComponent implements OnInit {
         nombre: 'App - Imágenes',
         github: 'https://github.com/Rosyec/React-AppImagenes',
         tecnologias: 'REACT - TYPESCRIPT - API UNSPLASH',
-        deploy: 'https://stalwart-creponne-18840c.netlify.app/'
+        deploy: 'https://storied-vacherin-3d8d3b.netlify.app/'
+      },
+      {
+        color: '#BFDB38',
+        nombre: 'App - Tareas',
+        github: 'https://github.com/Rosyec/React-AppTareas',
+        tecnologias: 'REACT - TYPESCRIPT',
+        deploy: 'https://react-app-tareas.vercel.app/'
+      },
+      {
+        color: '#7B2869',
+        nombre: 'App - Preguntas',
+        github: 'https://github.com/Rosyec/Vue-AppPreguntas',
+        tecnologias: 'VUE - TYPESCRIPT - API YESNO',
+        deploy: 'https://vue-app-preguntas.vercel.app/'
       }
+      
     ];
 
     this.habilidades = [
