@@ -7,7 +7,6 @@
     padding: 0;
 }
 
-
 .tarjeta {
     background-image: url(../../../../assets/paper.jpg);
     background-size: cover;
@@ -17,9 +16,8 @@
 }
 
 .tarjeta:hover {
-    width: 650px;
-    height: 220px;
-    margin-bottom: 20px;
+    vertical-align: top;
+    margin: 2em;
     transition: ease;
     transition-duration: 500ms;
     box-shadow: 20px 20px 100px 0px rgba(0,0,0,0.3);
@@ -65,11 +63,6 @@ p {
     font-size: 1.3em;
 }
 
-/* .content {
-    min-height: 60vh;
-    
-} */
-
 .circle {
     position: absolute;
     background-color: rgb(255, 255, 255);
@@ -106,7 +99,8 @@ p {
          
 .myButton {
     width: 200px;
-    background-image: linear-gradient(to right, #f857a6 0%, #ff5858  51%, #f857a6  100%);
+    background-color: #A9C9FF;
+    background-image: linear-gradient(180deg, #A9C9FF 0%, #f771d1 100%);
     font-family:'JetBrains';
     margin: 10px;
     padding: 10px;
@@ -114,8 +108,9 @@ p {
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
-    color: white;            
+              
     border-radius: 42px;
+    border: none;
   }
 
   .myButton:hover {
@@ -123,5 +118,11 @@ p {
     color: #fff;
     text-decoration: none;
     box-shadow: 20px 20px 100px 0px rgba(0,0,0,0.3);
+  }
+
+  @media only screen and (max-width: 770px) {
+    .content {
+        min-height: 1800px;
+    }
   }
  
