@@ -18,28 +18,28 @@ export class ContenidoComponent implements OnInit {
         color: '#ffff',
         github: 'https://github.com/Rosyec/ProyectoGestionUsuarios',
         nombre: 'Control de Usuarios (JSP)',
-        tecnologias: 'JAVA - HTML/CSS - JSP',
+        tecnologias: 'JAVA 8 - HTML/CSS - JSP',
         youtube: 'https://www.youtube.com/watch?v=yUK78iESKS0&ab_channel=RosyecParrado'
       },
       {
         color: '#ffff',
         nombre: 'Blog',
         github: 'https://github.com/Rosyec/ProyectoBlog',
-        tecnologias: 'JAVA - HTML/CSS - JSF',
+        tecnologias: 'JAVA 8 - HTML/CSS - JSF',
         youtube: 'https://www.youtube.com/watch?v=8E-f4O5cPQI&ab_channel=RosyecParrado'
       },
       {
         color: '#ffff',
         nombre: 'Películas',
         github: 'https://github.com/Rosyec/Springboot-AppPeliculas',
-        tecnologias: 'SPINGBOOT - JAVA - JWT - SPRINGDATA - HTML/CSS - JAVASCRIPT - MYSQL',
+        tecnologias: 'SPINGBOOT - JAVA 11 - JWT - SPRINGDATA - HTML/CSS - JAVASCRIPT - MYSQL',
         youtube: 'https://www.youtube.com/watch?v=zf_mAxHx4Eo&ab_channel=RosyecParrado'
       },
       {
         color: '#ffff',
         nombre: 'Control de Usuarios (Springboot)',
         github: 'https://github.com/Rosyec/SpringBoot-ControlUsuarios',
-        tecnologias: 'SPRINGBOOT - JAVA - SPRINGDATA - HTML/CSS - JAVASCRIPT - MYSQL',
+        tecnologias: 'SPRINGBOOT - JAVA 11 - SPRINGDATA - HTML/CSS - JAVASCRIPT - MYSQL',
         deploy: 'https://control-usuarios.herokuapp.com/app/listar'
       },
       {
