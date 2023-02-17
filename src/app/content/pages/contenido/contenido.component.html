@@ -14,7 +14,7 @@
             <div class="fondo" [ngStyle]="{'backgroundColor' : proyecto.color,  'opacity': '0.9' }">
                 <h4 class="p-3"> {{ proyecto.nombre }} </h4>
                 <div class="row m-2">
-                    <h6 style="text-align: center;"> {{ proyecto.tecnologias }} </h6>
+                    <code style="text-align: center;"> {{ proyecto.tecnologias }} </code>
                     <div class="col">
                         <a *ngIf="proyecto.deploy" [href]="proyecto.deploy" target="_blank"
                             class="text-dark mx-3 fs-2"><i class="bi bi-link-45deg"></i></a>

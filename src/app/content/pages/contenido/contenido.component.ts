@@ -17,91 +17,91 @@ export class ContenidoComponent implements OnInit {
       {
         color: '#ffff',
         github: 'https://github.com/Rosyec/ProyectoGestionUsuarios',
-        nombre: 'App - Control Usuarios',
-        tecnologias: 'JAVA - HTML/CSS - JSF',
+        nombre: 'Control de Usuarios (JSP)',
+        tecnologias: 'JAVA - HTML/CSS - JSP',
         youtube: 'https://www.youtube.com/watch?v=yUK78iESKS0&ab_channel=RosyecParrado'
       },
       {
         color: '#ffff',
-        nombre: 'App - Blog',
+        nombre: 'Blog',
         github: 'https://github.com/Rosyec/ProyectoBlog',
-        tecnologias: 'JAVA - HTML/CSS - JSP',
+        tecnologias: 'JAVA - HTML/CSS - JSF',
         youtube: 'https://www.youtube.com/watch?v=8E-f4O5cPQI&ab_channel=RosyecParrado'
       },
       {
         color: '#ffff',
-        nombre: 'App - Películas',
+        nombre: 'Películas',
         github: 'https://github.com/Rosyec/Springboot-AppPeliculas',
-        tecnologias: 'SPINGBOOT - HTML/CSS - JAVASCRIPT - MYSQL',
+        tecnologias: 'SPINGBOOT - JAVA - JWT - SPRINGDATA - HTML/CSS - JAVASCRIPT - MYSQL',
         youtube: 'https://www.youtube.com/watch?v=zf_mAxHx4Eo&ab_channel=RosyecParrado'
       },
       {
         color: '#ffff',
-        nombre: 'App - Control Usuarios',
+        nombre: 'Control de Usuarios (Springboot)',
         github: 'https://github.com/Rosyec/SpringBoot-ControlUsuarios',
-        tecnologias: 'SPRINGBOOT - HTML/CSS - JAVASCRIPT - MYSQL',
+        tecnologias: 'SPRINGBOOT - JAVA - SPRINGDATA - HTML/CSS - JAVASCRIPT - MYSQL',
         deploy: 'https://control-usuarios.herokuapp.com/app/listar'
       },
       {
         color: '#ffff',
-        nombre: 'App - Gifs',
+        nombre: 'Gifs',
         github: 'https://github.com/Rosyec/Angular-AppGifs',
         tecnologias: 'ANGULAR - TYPESCRIPT - API GIPHY',
         deploy: 'https://super-cajeta-e135e6.netlify.app/'
       },
       {
         color: '#ffff',
-        nombre: 'App - Paises',
+        nombre: 'Países',
         github: 'https://github.com/Rosyec/Angular-AppPaises',
-        tecnologias: 'ANGULAR - TYPECRIPT - API RESTCOUNTRIES',
+        tecnologias: 'ANGULAR - TYPESCRIPT - API RESTCOUNTRIES',
         deploy: 'https://stalwart-faloodeh-26b0d9.netlify.app/'
       }
       ,
       {
         color: '#ffff',
-        nombre: 'App - Mapas',
+        nombre: 'Mapas',
         github: 'https://github.com/Rosyec/Angular-AppMapas',
-        tecnologias: 'ANGULAR - TYPECRIPT - MAPBOX',
+        tecnologias: 'ANGULAR - TYPESCRIPT - MAPBOX',
         deploy: 'https://glistening-piroshki-d265d2.netlify.app/'
       },
       {
         color: '#ffff',
-        nombre: 'App - Héroes',
+        nombre: 'Héroes (Angular)',
         github: 'https://github.com/Rosyec/Angular-AppHeroes',
-        tecnologias: 'ANGULAR - TYPECRIPT - SPRINGBOOT',
+        tecnologias: 'ANGULAR - TYPESCRIPT - SPRINGBOOT - JAVA - MONGO DB',
         youtube: 'https://www.youtube.com/watch?v=7U4fQ5GOp_k&ab_channel=RosyecParrado'
       },
       {
         color: '#ffff',
-        nombre: 'App - Auth',
+        nombre: 'Auth',
         github: 'https://github.com/Rosyec/Angular-AppAuth',
         tecnologias: 'MONGO - EXPRESS - ANGULAR - NODE',
         deploy: 'https://angular-node.herokuapp.com/auth/login'
       },
       {
         color: '#ffff',
-        nombre: 'App - Imágenes',
+        nombre: 'Imágenes',
         github: 'https://github.com/Rosyec/React-AppImagenes',
-        tecnologias: 'REACT - TYPESCRIPT - API UNSPLASH',
+        tecnologias: 'REACT - TYPESCRIPT - REDUX - JEST - API UNSPLASH',
         deploy: 'https://storied-vacherin-3d8d3b.netlify.app/'
       },
       {
         color: '#ffff',
-        nombre: 'App - Tareas',
+        nombre: 'Tareas',
         github: 'https://github.com/Rosyec/React-AppTareas',
         tecnologias: 'REACT - TYPESCRIPT',
         deploy: 'https://react-app-tareas.vercel.app/'
       },
       {
         color: '#ffff',
-        nombre: 'App - Preguntas',
+        nombre: 'Preguntas',
         github: 'https://github.com/Rosyec/Vue-AppPreguntas',
-        tecnologias: 'VUE - TYPESCRIPT - API YESNO',
+        tecnologias: 'VUE - COMPOSITION API - TYPESCRIPT - VITEST - API YESNO',
         deploy: 'https://vue-app-preguntas.vercel.app/'
       },
       {
         color: '#ffff',
-        nombre: 'App - Héroes 2',
+        nombre: 'Héroes (React)',
         github: 'https://github.com/Rosyec/React-AppHeroes',
         tecnologias: 'REACT - TYPESCRIPT',
         deploy: 'https://react-app-heroes.vercel.app/login'
@@ -113,17 +113,17 @@ export class ContenidoComponent implements OnInit {
       {
         nombre: 'Backend',
         imagen: 'bi bi-cpu-fill',
-        habilidades: ['SPRING BOOT', 'NODE JS']
+        habilidades: ['SPRING BOOT', 'NODE-JS', 'MONGO DB', 'MYSQL']
       },
       {
         nombre: 'Fronted',
         imagen: 'bi bi-window-stack',
-        habilidades: ['ANGULAR', 'REACT', 'VUE']
+        habilidades: ['HTML/CSS', 'ANGULAR', 'REACT', 'VUE']
       },
       {
         nombre: 'Lenguajes',
         imagen: 'bi bi-tools',
-        habilidades: ['JAVA', 'HTML/CSS', 'TYPESCRIPT']
+        habilidades: ['JAVA', 'TYPESCRIPT', 'JAVASCRIPT']
       }
     ];
 
