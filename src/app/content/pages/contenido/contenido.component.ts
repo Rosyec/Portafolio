@@ -18,14 +18,14 @@ export class ContenidoComponent implements OnInit {
         color: '#ffff',
         github: 'https://github.com/Rosyec/ProyectoGestionUsuarios',
         nombre: 'Control de Usuarios (JSP)',
-        tecnologias: 'JAVA 8 - HTML/CSS - JSP',
+        tecnologias: 'JAVA 8 - HTML/CSS - JPA - JSP - MYSQL',
         youtube: 'https://www.youtube.com/watch?v=yUK78iESKS0&ab_channel=RosyecParrado'
       },
       {
         color: '#ffff',
         nombre: 'Blog',
         github: 'https://github.com/Rosyec/ProyectoBlog',
-        tecnologias: 'JAVA 8 - HTML/CSS - JSF',
+        tecnologias: 'JAVA 8 - HTML/CSS - JPA - JSF - MYSQL',
         youtube: 'https://www.youtube.com/watch?v=8E-f4O5cPQI&ab_channel=RosyecParrado'
       },
       {
@@ -68,7 +68,7 @@ export class ContenidoComponent implements OnInit {
         color: '#ffff',
         nombre: 'Héroes (Angular)',
         github: 'https://github.com/Rosyec/Angular-AppHeroes',
-        tecnologias: 'ANGULAR - TYPESCRIPT - SPRINGBOOT - JAVA - MONGO DB',
+        tecnologias: 'ANGULAR - TYPESCRIPT - SPRINGBOOT - JAVA 11 - MONGO DB',
         youtube: 'https://www.youtube.com/watch?v=7U4fQ5GOp_k&ab_channel=RosyecParrado'
       },
       {
