@@ -42,18 +42,18 @@ img {
     overflow: visible;
     height: 200px;
     border-radius: 999px 999px 999px 999px;
-    background-color: #FFDEE9;
-    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    background-color: #ffdee954;
+    background-image: linear-gradient(90deg, #ffdee944 0%, #b5fffd71 100%);
     box-shadow: 20px 20px 50px 0px rgba(0,0,0,0.3);
 }
 
 
 
-@media (min-width:770px) {
+/* @media (min-width:770px) {
     .icono:hover {
         padding-bottom: 100px;
     }
-}
+} */
 
 .icono:not(hover){
     transition: ease;

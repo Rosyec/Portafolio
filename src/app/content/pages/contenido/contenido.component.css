@@ -8,6 +8,7 @@
 }
 
 .tarjeta {
+    height: auto;
     background-image: url(../../../../assets/paper.jpg);
     background-size: cover;
     opacity: 0.9;
@@ -15,7 +16,7 @@
     border-radius: 5px;
 }
 
-.tarjeta:hover {
+/* .tarjeta:hover {
     vertical-align: top;
     margin: 2em;
     transition: ease;
@@ -23,13 +24,13 @@
     box-shadow: 20px 20px 100px 0px rgba(0,0,0,0.3);
     cursor: pointer;
     
-}
+} */
 
-.tarjeta:not(hover){
+/* .tarjeta:not(hover){
     height: 200px;
     transition: ease;
     transition-duration: 500ms;
-}
+} */
 
 .fondo {
     height: 100%;
@@ -38,11 +39,11 @@
     border-radius: 5px;
 }
 
-h4:hover{
+/* h4:hover{
     font-size: 1.8em;
     transition: ease;
     transition-duration: 200ms;
-}
+} */
 
 h6 {
     font-weight: 300;

@@ -21,18 +21,18 @@ export class ContenidoComponent implements OnInit {
         tecnologias: 'JAVA 8 - HTML/CSS - JPA - JSP - MYSQL',
         youtube: 'https://www.youtube.com/watch?v=yUK78iESKS0&ab_channel=RosyecParrado'
       },
-      {
-        color: '#ffff',
-        nombre: 'Blog',
-        github: 'https://github.com/Rosyec/ProyectoBlog',
-        tecnologias: 'JAVA 8 - HTML/CSS - JPA - JSF - MYSQL',
-        youtube: 'https://www.youtube.com/watch?v=8E-f4O5cPQI&ab_channel=RosyecParrado'
-      },
+      // {
+      //   color: '#ffff',
+      //   nombre: 'Blog',
+      //   github: 'https://github.com/Rosyec/ProyectoBlog',
+      //   tecnologias: 'JAVA 8 - HTML/CSS - JPA - JSF - MYSQL',
+      //   youtube: 'https://www.youtube.com/watch?v=8E-f4O5cPQI&ab_channel=RosyecParrado'
+      // },
       {
         color: '#ffff',
         nombre: 'Películas',
         github: 'https://github.com/Rosyec/Springboot-AppPeliculas',
-        tecnologias: 'SPINGBOOT - JAVA 11 - JWT - SPRINGDATA - HTML/CSS - JAVASCRIPT - MYSQL',
+        tecnologias: 'SPINGBOOT - JAVA 11 - JWT - SPRINGDATA - HTML/CSS - MYSQL',
         youtube: 'https://www.youtube.com/watch?v=zf_mAxHx4Eo&ab_channel=RosyecParrado'
       },
       {
@@ -82,7 +82,7 @@ export class ContenidoComponent implements OnInit {
         color: '#ffff',
         nombre: 'Imágenes',
         github: 'https://github.com/Rosyec/React-AppImagenes',
-        tecnologias: 'REACT - TYPESCRIPT - REDUX - JEST - API UNSPLASH',
+        tecnologias: 'REACT - TYPESCRIPT - REDUX - JEST - AXIOS - API UNSPLASH',
         deploy: 'https://storied-vacherin-3d8d3b.netlify.app/'
       },
       {
@@ -98,6 +98,13 @@ export class ContenidoComponent implements OnInit {
         github: 'https://github.com/Rosyec/Vue-AppPreguntas',
         tecnologias: 'VUE - COMPOSITION API - TYPESCRIPT - VITEST - API YESNO',
         deploy: 'https://vue-app-preguntas.vercel.app/'
+      },
+      {
+        color: '#ffff',
+        nombre: 'Agenda',
+        github: 'https://github.com/Rosyec/React-AppAgenda',
+        tecnologias: 'REACT - TYPESCRIPT - REDUX - FIREBASE - AXIOS',
+        deploy: 'https://react-app-agenda.vercel.app/auth/login'
       },
       {
         color: '#ffff',
