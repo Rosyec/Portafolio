@@ -1,16 +1,15 @@
-<app-header titulo="Bienvenido" subTitulo="Desarrollador WEB"></app-header>
+<app-header titulo="¡Hola, soy Ceysor!" subTitulo="Desarrollador Web"></app-header>
 
 <div class="container text-center p-3" style="margin-top: 50px;">
     <div class="row d-flex justify-content-center align-items-center text-center">
 
         <div>
             <iframe src="https://giphy.com/embed/VbK2YCQFWdg5nvH5wa" width="220" frameBorder="0"></iframe>
-            <p></p>
-            <h1 class="display-5">Proyectos realizados</h1>
-            <p>Proyectos que he realizado a lo largo de mi carrera.</p>
+            <h1 class="display-5">Proyectos</h1>
+            <p>Proyectos realizados con distintas técnologias.</p>
         </div>
 
-        <div class="col-md-5 tarjeta mt-4 mx-2 text-dark d-flex justify-content-center align-items-center" *ngFor="let proyecto of proyectos">
+        <div class="col-md-5 mt-5 tarjeta mt-4 mx-2 text-dark d-flex justify-content-center align-items-center" *ngFor="let proyecto of proyectos">
             <div class="fondo" [ngStyle]="{'backgroundColor' : proyecto.color,  'opacity': '0.9' }">
                 <h4 class="p-3"> {{ proyecto.nombre }} </h4>
                 <div class="row m-2">
@@ -39,9 +38,9 @@
                         <img [src]="habilidad.imagen" style=" height: 100px;" alt="">
                     </div>
                     <div class="habilidades" [id]="habilidad.nombre">
-                        <div class="mt-3 items" [id]="i">
+                        <div class="mt-2 items" [id]="i">
                             <h3> {{ habilidad.nombre }} </h3>
-                            <p id="parrafo" *ngFor="let item of habilidad.habilidades"> {{ item }} </p>
+                            <p class="fs-6" id="parrafo" *ngFor="let item of habilidad.habilidades"> {{ item }} </p>
                         </div>
                     </div>
                 </div>
@@ -51,11 +50,21 @@
         <div class="row d-flex justify-content-center" style="margin-top: 100px;">
             <div class="row">
                 <h1 class="display-5">Contácto</h1>
-                <p>Haz click en el boton de abajo.</p>
+                <p>Encuentrame en mis redes sociales.</p>
+                <div class="row content mt-5 d-flex justify-content-center align-items-center">
+                    <div class="col-sm-6 col-md-3" *ngFor="let red of redes">
+                        <div class="icono d-flex justify-content-center align-items-center">
+                            <a class="fs-1 text-dark" id="btn" (click)="modal( red.enlace, red.nombre, red.icono )" ><i [class]="red.icono"></i></a>
+                            <!-- <br> -->
+                            <span class="m-1"> {{ red.nombre }} </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- <p>Haz click en el boton de abajo.</p> -->
             </div>
-            <div class="col">
+            <!-- <div class="col">
                 <button class="myButton" [routerLink]="['/app/portafolio/contacto']">Click</button>
-            </div>
+            </div> -->
             
         </div>
     </div>

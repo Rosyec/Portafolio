@@ -14,6 +14,11 @@
     opacity: 0.9;
     background-position: 100%;
     border-radius: 5px;
+    box-shadow: 20px 20px 100px 0px rgba(0,0,0,0.3);
+}
+
+code {
+    font-family: RobotoRegular;
 }
 
 /* .tarjeta:hover {
@@ -39,25 +44,18 @@
     border-radius: 5px;
 }
 
-/* h4:hover{
-    font-size: 1.8em;
-    transition: ease;
-    transition-duration: 200ms;
-} */
 
 h6 {
     font-weight: 300;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 h3, h2, h1 {
-    font-family: 'JetBrains';
-    color: #d63384;
-    text-shadow: 2px 2px 0px white;
+    font-family: RobotoBold;
 }
 
 p, a, h4 {
-    font-family: 'JetBrains';
+    font-family: RobotoLight;
+    font-weight: bold;
 }
 
 p {
@@ -97,12 +95,15 @@ p {
     padding-top: 15em;
     visibility: hidden;
 }
+
+.icono > a {
+    cursor: pointer;
+}
          
 .myButton {
     width: 200px;
     background-color: #A9C9FF;
     background-image: linear-gradient(180deg, #A9C9FF 0%, #f771d1 100%);
-    font-family:'JetBrains';
     margin: 10px;
     padding: 10px;
     text-align: center;

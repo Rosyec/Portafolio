@@ -1,12 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-    background-color: #A9C9FF;
-background-image: linear-gradient(180deg, #A9C9FF 0%, #f771d1 100%);
-
+    background-color: rgb(243, 244, 246);
 }
 
-@media (max-width: 500px) { 
-    body {
-        background-image: linear-gradient( 135deg, #81FFEF 30%, #F067B4 10%);
-    }
+@font-face {
+    font-family: RobotoBold;
+    src: url(./assets/fonts/Roboto-Bold.ttf);
+  }
+@font-face {
+    font-family: RobotoRegular;
+    src: url(./assets/fonts/Roboto-Regular.ttf);
+  }
+  @font-face {
+    font-family: RobotoMedium;
+    src: url(./assets/fonts/Roboto-Medium.ttf);
+  }
+  @font-face {
+    font-family: RobotoLight;
+    src: url(./assets/fonts/Roboto-Light.ttf);
+  }
+  @font-face {
+    font-family: RobotoThin;
+    src: url(./assets/fonts/Roboto-Thin.ttf);
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: RobotoRegular;
 }

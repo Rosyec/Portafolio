@@ -11,10 +11,10 @@ export class MenuComponent implements OnInit {
       ruta: '/app/portafolio/',
       nombre: 'Home'
     },
-    {
-      ruta: '/app/portafolio/contacto',
-      nombre: 'Contacto'
-    }
+    // {
+    //   ruta: '/app/portafolio/contacto',
+    //   nombre: 'Contacto'
+    // }
   ];
 
   constructor() { }
