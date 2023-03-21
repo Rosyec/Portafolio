@@ -7,6 +7,10 @@
     padding: 0;
 }
 
+.container {
+    min-height: 100vh;
+}
+
 .tarjeta {
     height: auto;
     background-image: url(../../../../assets/paper.jpg);
@@ -20,22 +24,6 @@
 code {
     font-family: RobotoRegular;
 }
-
-/* .tarjeta:hover {
-    vertical-align: top;
-    margin: 2em;
-    transition: ease;
-    transition-duration: 500ms;
-    box-shadow: 20px 20px 100px 0px rgba(0,0,0,0.3);
-    cursor: pointer;
-    
-} */
-
-/* .tarjeta:not(hover){
-    height: 200px;
-    transition: ease;
-    transition-duration: 500ms;
-} */
 
 .fondo {
     height: 100%;
@@ -120,11 +108,5 @@ p {
     color: #fff;
     text-decoration: none;
     box-shadow: 20px 20px 100px 0px rgba(0,0,0,0.3);
-  }
-
-  @media only screen and (max-width: 770px) {
-    .content {
-        min-height: 1800px;
-    }
   }
  

@@ -6,7 +6,7 @@
         <div>
             <iframe src="https://giphy.com/embed/VbK2YCQFWdg5nvH5wa" width="220" frameBorder="0"></iframe>
             <h1 class="display-5">Proyectos</h1>
-            <p>Proyectos realizados con distintas técnologias.</p>
+            <p>Realizados en distintas técnologias.</p>
         </div>
 
         <div class="col-md-5 mt-5 tarjeta mt-4 mx-2 text-dark d-flex justify-content-center align-items-center" *ngFor="let proyecto of proyectos">
@@ -31,7 +31,7 @@
                 <h1 class="display-5">Habilidades</h1>
                 <p>Desde el backend hasta el frontend.</p>
             </div>
-            <div class="row content d-flex justify-content-center" style="height: 600px;">
+            <div class="row content d-flex justify-content-center" >
                 <div *ngFor="let habilidad of habilidades; let i = index" class="col-md-4 mt-5 d-flex justify-content-center">
                     <div class="circle d-flex justify-content-center align-items-center" (click)="hover( habilidad.nombre )">
                         <a style="font-size: 4em;"><i [class]="habilidad.imagen"></i></a>
@@ -51,9 +51,9 @@
             <div class="row">
                 <h1 class="display-5">Contácto</h1>
                 <p>Encuentrame en mis redes sociales.</p>
-                <div class="row content mt-5 d-flex justify-content-center align-items-center">
+                <div class="row mt-5 d-flex justify-content-center align-items-center">
                     <div class="col-sm-6 col-md-3" *ngFor="let red of redes">
-                        <div class="icono d-flex justify-content-center align-items-center">
+                        <div class="icono d-flex mx-2 justify-content-center align-items-center">
                             <a class="fs-1 text-dark" id="btn" (click)="modal( red.enlace, red.nombre, red.icono )" ><i [class]="red.icono"></i></a>
                             <!-- <br> -->
                             <span class="m-1"> {{ red.nombre }} </span>
