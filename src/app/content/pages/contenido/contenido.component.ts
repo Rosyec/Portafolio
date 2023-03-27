@@ -143,6 +143,14 @@ export class ContenidoComponent implements OnInit {
         github: 'https://github.com/Rosyec/React-Chat',
         tecnologias: 'REACT - NODEJS - MONGO - SOCKET.OI - FIREBASE - REDUX',
         youtube: 'https://youtu.be/npB5QDXWHiA'
+      },
+      {
+        color: '#ffff',
+        nombre: 'Bot Whatsapp',
+        github: 'https://github.com/Rosyec/Node-BotWhatsapp', 
+        tecnologias: 'NODEJS - TYPESCRIPT - AZURE - WHATSAPP API - CHATGPT',
+        youtube: 'https://youtu.be/lDsyJD8fOkE',
+        deploy: 'https://wa.me/+573232775818?text=Hola'
       }
       
     ];
