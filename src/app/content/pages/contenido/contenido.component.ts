@@ -141,8 +141,9 @@ export class ContenidoComponent implements OnInit {
         color: '#ffff',
         nombre: 'Chat',
         github: 'https://github.com/Rosyec/React-Chat',
-        tecnologias: 'REACT - NODEJS - MONGO - SOCKET.OI - FIREBASE - REDUX',
-        youtube: 'https://youtu.be/npB5QDXWHiA'
+        tecnologias: 'REACT - NODEJS - MONGO - SOCKET.OI - FIREBASE - REDUX - AZURE',
+        youtube: 'https://youtu.be/Q_kVi16TaDo',
+        deploy: 'https://react-login-deploy.vercel.app'
       },
       {
         color: '#ffff',
